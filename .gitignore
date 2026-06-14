@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+app/.venv/
+infra/.terraform/
+infra/.terraform.lock.hcl.backup
+infra/*.tfstate
+infra/*.tfstate.*
+infra/terraform.tfvars
+infra/tfplan

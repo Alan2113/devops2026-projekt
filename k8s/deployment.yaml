@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: app
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: app
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: acrlab03alan422380.azurecr.io/app:bd946a962d814c31a835ef73aa240368059f3a54
+          image: placeholder
           ports:
             - containerPort: 8080
 ---
